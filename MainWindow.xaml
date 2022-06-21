@@ -70,17 +70,7 @@
                        Grid.Row="2"
                        VerticalAlignment="Top"
                        Margin="10,10,7,0" />
-                <TextBlock Grid.Column="1"
-                           HorizontalAlignment="Left"
-                           Margin="36,1,0,0"
-                           Text="Vejr"
-                           TextWrapping="Wrap"
-                           VerticalAlignment="Top"
-                           Height="56"
-                           Width="182"
-                           Grid.Row="3"
-                           
-                           />
+               
 
             </Grid>
 
