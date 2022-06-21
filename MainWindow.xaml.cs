@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using WeatherService;
 
 namespace Booking__Eksamen_
 {
@@ -23,9 +24,18 @@ namespace Booking__Eksamen_
         public MainWindow()
         {
             InitializeComponent();
+            WeatherData weatherService = new();
+
+            string weather = weatherService.GetWeather();
+
         }
 
         private void ComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
+        }
+
+        private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
         {
 
         }

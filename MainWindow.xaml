@@ -46,7 +46,7 @@
                           Grid.Column="1"
                           Grid.Row="3"
                           Margin="27,20,-181,-192"
-                          SelectionChanged="DataGrid_SelectionChanged" />
+                           />
                 <DatePicker Grid.Column="1"
                             HorizontalAlignment="Left"
                             Margin="36,10,0,0"
@@ -70,6 +70,18 @@
                        Grid.Row="2"
                        VerticalAlignment="Top"
                        Margin="10,10,7,0" />
+                <TextBlock Grid.Column="1"
+                           HorizontalAlignment="Left"
+                           Margin="36,1,0,0"
+                           Text="Vejr"
+                           TextWrapping="Wrap"
+                           VerticalAlignment="Top"
+                           Height="56"
+                           Width="182"
+                           Grid.Row="3"
+                           
+                           />
+
             </Grid>
 
 
@@ -148,14 +160,14 @@
                           Grid.Row="5"
                           VerticalAlignment="Top"
                           Width="120"
-                          SelectionChanged="ComboBox_SelectionChanged" />
+                           />
                 <ComboBox Grid.Column="1"
                           HorizontalAlignment="Center"
                           Margin="0,11,0,0"
                           Grid.Row="6"
                           VerticalAlignment="Top"
                           Width="120"
-                          SelectionChanged="ComboBox_SelectionChanged" />
+                           />
                 <DatePicker Grid.Column="1"
                             HorizontalAlignment="Center"
                             Grid.Row="3"
@@ -167,7 +179,6 @@
                          TextWrapping="Wrap"
                          VerticalAlignment="Center"
                          Width="120"
-                         TextChanged="TextBox_TextChanged"
                          Grid.Row="1" />
                 <ListBox Grid.Column="1"
                          Grid.Row="4"
